@@ -108,6 +108,11 @@ h2 {
   animation: fadeIn 3s ease-in forwards;
 }
 
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
 .profile_image {
   width: 550px;
   height: fit-content;
